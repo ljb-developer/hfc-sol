@@ -7,14 +7,14 @@ const road_map_data = [
     percent: 0,
     heading: "Birth of the Meme",
     desc: "",
-    lists: ["Define a relatable narrative.", "Launch on social media platforms", "Start giveaways and meme contests to build buzz."],
+    lists: ["Define a relatable narrative.", "Launch on social media platforms.", "Start giveaways and meme contests to build buzz."],
   },
   {
     step: 2,
     percent: 25,
     heading: "Hype Machine Activation",
     desc: "",
-    lists: ["Introduce branding, including logo and mascot.", "Partner with influencers and meme accounts", "Conduct AMA sessions and development-launch teasers"],
+    lists: ["Introduce branding, including logo and mascot.", "Partner with influencers and meme accounts.", "Conduct AMA sessions and development-launch teasers."],
   },
   {
     step: 3,
@@ -32,7 +32,7 @@ const road_map_data = [
   },
   {
     step: 5,
-    percent: 90,
+    percent: 100,
     heading: "Meme Domination",
     desc: "",
     lists: ["Expand into the Metaverse and NFT marketplaces.", "Launch community-driven initiatives and decentralized governance."],

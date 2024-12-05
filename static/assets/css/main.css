@@ -3286,7 +3286,7 @@ input[type=color] {
   content: "";
   display: block;
   width: 80px;
-  height: 1px;
+  height: 0px;
   background: rgba(131, 131, 131, 0.25);
   margin: 35px 0;
 }
