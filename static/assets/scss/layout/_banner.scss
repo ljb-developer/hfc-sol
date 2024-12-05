@@ -603,6 +603,7 @@
 .mobile-hfc {
     img {
         display: none;
+        border-radius: 12px;
     }
 }
 
@@ -611,10 +612,13 @@
         justify-content:center !important;
     }
     .mobile-hfc {
+        text-align: center;
+        width: 100%;
         img {
             display: block;
             width: 60%;
             height: auto;
+            border-radius: 12px;
         }
     }
 }
@@ -623,10 +627,13 @@
         justify-content:center !important;
     }
     .mobile-hfc {
+        text-align: center;
+        width: 100%;
         img {
             display: block;
             width: 60%;
             height: auto;
+            border-radius: 12px;
         }
     }
 }
