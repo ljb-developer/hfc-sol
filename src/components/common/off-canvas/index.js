@@ -50,29 +50,18 @@ const OffCanvas = ({
           <div className="social-links">
             <ul className="list-wrap">
               <li>
-                <a href="https://twitter.com/MariJuanaOnBase" target="_blank">
+                <a href="https://x.com/HFC_Solana" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
-                <a
-                  href="https://www.instagram.com/marijuanaonbase/"
-                  target="_blank"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://t.me/+GMVsWrtR9d41Y2Qx" target="_blank">
+                <a href="https://t.me/hfcctosol" target="_blank">
                   <i className="fab fa-telegram-plane"></i>
                 </a>
               </li>
               <li>
-                <a
-                  href="https://open.spotify.com/artist/5LSNkrx2EZ8VPkXVtKOjAX"
-                  target="_blank"
-                >
-                  <i className="fab fa-spotify"></i>
+                <a href="https://tiktok.com/@hfc_solana" target="_blank">
+                  <i className="fab fa-tiktok"></i>
                 </a>
               </li>
             </ul>
