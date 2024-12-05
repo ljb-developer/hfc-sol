@@ -59,11 +59,6 @@ const OffCanvas = ({
                   <i className="fab fa-telegram-plane"></i>
                 </a>
               </li>
-              <li>
-                <a href="https://tiktok.com/@hfc_solana" target="_blank">
-                  <i className="fab fa-tiktok"></i>
-                </a>
-              </li>
             </ul>
           </div>
         </nav>
