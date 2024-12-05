@@ -588,6 +588,19 @@
     margin-bottom: 20px !important;
 }
 
+
+@media #{$xs} {
+    .welcome-menu {
+        justify-content:center !important;
+    }
+}
+@media #{$sm} {
+    .welcome-menu {
+        justify-content:center !important;
+    }
+}
+
+
 #dice-container {
     
     display: flex;
