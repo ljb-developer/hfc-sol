@@ -89,13 +89,13 @@
                 margin: 0 auto 35px;
             }
             @media #{$xs} {
-                font-size: 38px;
-                max-width: 90%;
+                font-size: 38px !important;
+                max-width: 90% !important;
             }
             @media #{$sm} {
                 
-                font-size: 38px;
-                max-width: 90%;
+                font-size: 38px !important;
+                max-width: 90% !important;
             }
         }
         & > img {
