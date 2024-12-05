@@ -10,7 +10,6 @@ import collection_data from "../data/collection-data";
 import artdice_images from "../data/artdice-data";
 import videos_data from "../data/videos-data";
 import videos_data2 from "../data/videos-data2";
-import music_data from "../data/music-data";
 
 
 const Layout = ({ children, blog_page = false }) => {
@@ -70,7 +69,6 @@ const preloadedImages = [
   const imageFiles = [
     ...preloadedImages,
     ...artdice_images.map((item) => item.img),
-    ...music_data.map((item) => item.cover),
     ...videos_data2.map((item) => item.cover),
   ];
 
@@ -86,7 +84,6 @@ const preloadedImages = [
     const imageSources = [
       ...collection_data,
       ...artdice_images.map((item) => item.img),
-      ...music_data.map((item) => item.cover),
     ];
 
     const preloadAssets = () => {
