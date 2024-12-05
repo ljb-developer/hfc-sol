@@ -64,6 +64,16 @@ const HomePage = () => {
                 }
               }  
 
+              aboutSection2 {
+                toptext
+                header
+                content
+                image {
+                  id
+                  url
+                }
+              } 
+
             socialsSection {
               toptext
               header
