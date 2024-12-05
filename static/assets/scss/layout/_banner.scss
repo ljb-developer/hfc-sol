@@ -664,6 +664,19 @@
         font-size: 100px;
         margin-left: 0px;
         padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .titleF::after {
+        content: "";
+        position: absolute;
+        top: 64px;
+        right: 50px;
+        background: url("/assets/img/icons/boxing-gloves.png");
+        background-size: contain;
+        height: 26px;
+        width: 38px;
+        z-index: 2; 
+        pointer-events: none; 
     }
 }
 @media #{$sm} {
@@ -671,5 +684,18 @@
         font-size: 100px;
         margin-left: 0px;
         padding-left: 0px;
+        padding-bottom: 30px;
+    }
+    .titleF::after {
+        content: "";
+        position: absolute;
+        top: 64px;
+        right: 50px;
+        background: url("/assets/img/icons/boxing-gloves.png");
+        background-size: contain;
+        height: 26px;
+        width: 38px;
+        z-index: 2; 
+        pointer-events: none; 
     }
 }
