@@ -5,9 +5,9 @@ const road_map_data = [
   {
     step: 1,
     percent: 0,
-    heading: "Planning",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    lists: ["Planning", "xxxx", "yyyy"],
+    heading: "The Birth of the Meme",
+    desc: "Define a relatable narrative.",
+    lists: ["Define a relatable narrative.", "Launch on social media platforms", "Start giveaways and meme contests to build buzz."],
   },
   {
     step: 2,
