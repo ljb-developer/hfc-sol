@@ -12,7 +12,7 @@ const Brands = () => {
           <div className="col-xl-10 col-12">
             <div className="brand__list">
 
-              <SingleBrand img_1="wallet-01.svg" img_2="wallet-light-01.svg" />
+              {/* <SingleBrand img_1="wallet-01.svg" img_2="wallet-light-01.svg" /> */}
               <a
                 href="https://dexscreener.com/base/0x4e89cc41adfeaf3f97f4657bc8a5cf50be570757"
                 target="_blank"
