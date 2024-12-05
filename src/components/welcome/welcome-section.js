@@ -25,6 +25,7 @@ const WelcomeSection = ({CMSData}) => {
               <div
                 className="banner__content"
                 data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
+                style={{justifyContent: "center", width: "100%"}}
               >
                 <span className="titleF">{CMSData.welcomeSection.header1}
                 <br/>
