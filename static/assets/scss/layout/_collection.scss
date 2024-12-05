@@ -115,10 +115,10 @@
                 height: 40px;
                 @include flex-center();
                 @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
-                @include border-radius(50%);
+                @include border-radius(10%);
                 border: 1px solid rgba(131, 131, 131, 0.25);
                 color: var(--tg-body-color);
-                background-color: var(--tg-common-color-white);
+                background-color: red;
                 font-size: 15px;
                 z-index: 2;
                 &.swiper-button-disabled {

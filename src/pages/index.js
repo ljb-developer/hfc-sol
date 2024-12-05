@@ -118,7 +118,7 @@ const HomePage = () => {
 
       try {
         const result = await client.request(query);
-        console.log("DATAN: ", result);
+        // console.log("DATAN: ", result);
         setData(result);
       } catch (err) {
         console.error("Error fetching data from DatoCMS:", err);
