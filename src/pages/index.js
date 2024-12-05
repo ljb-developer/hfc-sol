@@ -114,13 +114,7 @@ const HomePage = () => {
             }   
                 
               footer {
-                title
-                url
-                info
-                image {
-                  id
-                  url
-                }
+                description
             }  
         
           }
