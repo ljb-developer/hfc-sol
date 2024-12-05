@@ -75,7 +75,7 @@ const RoadMapAreaThree = () => {
                     </span>
                   </div>
                   <h3 className="roadmap__heading">{item.heading}</h3>
-                  <p>{item.desc}</p>
+                  {/* <p>{item.desc}</p> */}
                   <ul className="roadmap__lists list-wrap">
                     {item.lists.map((l, i) => (
                       <li key={i}>
