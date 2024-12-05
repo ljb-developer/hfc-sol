@@ -109,7 +109,7 @@
             & .tg-swiper-prev {
                 position: absolute;
                 left: 0;
-                top: 40%;
+                top: 42%;
                 @include transform(translate(-50% , -50%));
                 width: 60px;
                 height: 60px;
@@ -117,7 +117,7 @@
                 @include box-shadow(0 3px 8px -1px rgba(0, 0, 0, 0.08));
                 @include border-radius(10%);
                 border: 1px solid rgba(131, 131, 131, 0.25);
-                color: var(--tg-body-color);
+                color: red; /* var(--tg-body-color);*/
                 background-color: red;
                 font-size: 20px;
                 z-index: 2;
