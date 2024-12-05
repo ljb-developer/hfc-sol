@@ -588,6 +588,11 @@
     margin-bottom: 20px !important;
 }
 
+@media #{$md} {
+    .welcome-menu {
+        justify-content:center !important;
+    }
+}
 
 @media #{$xs} {
     .welcome-menu {
