@@ -298,13 +298,17 @@
             }
             .banner__content .desc {
                 max-width: 90%;
-                font-size: 20px;
+                // font-size: 20px;
+                padding-top: 20px;
+                font-size: 38px;
             }
         }
         @media #{$md} {
             padding: 150px 0 100px;
             .banner__content .desc {
                 max-width: 80%;
+                padding-top: 20px;
+                font-size: 38px;
             }
         }
         @media #{$xs} {
@@ -314,6 +318,8 @@
             }
             .banner__content .desc {
                 max-width: 100%;
+                padding-top: 20px;
+                font-size: 38px;
             }
         }
         @media #{$sm} {

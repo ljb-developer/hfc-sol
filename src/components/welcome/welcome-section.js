@@ -29,7 +29,7 @@ const WelcomeSection = ({CMSData}) => {
                 <span className="titleF">{CMSData.welcomeSection.header1}
                 <br/>
                 {CMSData.welcomeSection.header2}</span>
-                <p className="desc" style={{paddingTop: "20px", fontSize: "38px"}}>
+                <p className="desc">
                 {CMSData.welcomeSection.slogan}
                 </p>
 
@@ -73,28 +73,7 @@ const WelcomeSection = ({CMSData}) => {
 
                 </div>
 
-                {/* <div className="banner__community">
-                <ul className="list-wrap footer__social" style={{paddingTop: "30px"}}>
-                  <li>
-                    <a href="https://x.com/forge_erc">
-                    <img src="/assets/img/icons/x.svg" style={{width: "50px"}}/>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://t.me/forge_erc">
-                      <img src="/assets/img/icons/tg.svg" style={{width: "50px"}}/>
-                    </a>
-                  </li>
-
-                  <li>
-                    <a href="https://opensea.io">
-                      <img src="/assets/img/icons/opensea.svg" style={{width: "50px"}}/>
-                    </a>
-                  </li>
-
-                </ul>
-                </div> */}
+      
               </div>
             </div>
             <div className="col-lg-6">
@@ -102,14 +81,7 @@ const WelcomeSection = ({CMSData}) => {
                 className="banner__images-two"
                 data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
               >
-                {/* <img
-                  className="shape-six"
-                  width="80"
-                  src="/assets/img/objects/nft.png"
-                  alt="object"
-                  style={{ bottom: '0%',left:"24%"}}
-                  data-anime="opacity:[0, 1]; scale:[0, 1]; onview: true; delay: 400;"
-                /> */}
+
 
                 <div className="banner__images-grid-two">
                   <div
