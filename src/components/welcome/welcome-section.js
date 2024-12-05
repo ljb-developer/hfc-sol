@@ -37,7 +37,7 @@ const WelcomeSection = ({CMSData}) => {
       
 
   
-                  <ul className="list-wrap footer__social" style={{justifyContent: "flex-start", border: "0px solid white", paddingTop: "0px", marginBotton: "20px"}}>
+                  <ul className="list-wrap footer__social" style={{justifyContent: "center", border: "0px solid white", paddingTop: "0px", marginBotton: "20px"}}>
 
                   <a
                     href="https://app.uniswap.org/swap?chain=base&use=v2&outputCurrency=0x160381343365de6D5e7d32172987B3e6Bd1ccE71"
