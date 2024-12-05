@@ -5,24 +5,38 @@ const road_map_data = [
   {
     step: 1,
     percent: 0,
-    heading: "The Birth of the Meme",
-    desc: "Define a relatable narrative.",
+    heading: "Birth of the Meme",
+    desc: "",
     lists: ["Define a relatable narrative.", "Launch on social media platforms", "Start giveaways and meme contests to build buzz."],
   },
   {
     step: 2,
     percent: 25,
-    heading: "Production",
-    desc: "Sed ut perspiciatis unde omnis iste natus error, totam rem aperiam, eaque ipsae veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    lists: ["Release website and logo", "Grow community", "Launch the project"],
+    heading: "Hype Machine Activation",
+    desc: "",
+    lists: ["Introduce branding, including logo and mascot.", "Partner with influencers and meme accounts", "Conduct AMA sessions and development-launch teasers"],
   },
   {
     step: 3,
     percent: 50,
-    heading: "Launch",
-    desc: "Ut enim ad minima veniam, quis nostrum exercitationem ullam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum in ea voluptate.",
-    lists: ["xxxx", "yyyy", "zzzz"],
+    heading: "Post-Launch Blitzkrieg",
+    desc: "",
+    lists: ["Celebrate launch with viral challenges and meme contests.", "Introduce NFT collections tied to HFC lore.", "Share weekly updates and host interactive community events."],
   },
+  {
+    step: 4,
+    percent: 75,
+    heading: "Meme Empire Rises",
+    desc: "",
+    lists: ["Expand globally with multilingual campaigns.", "Use treasury funds for ads and partnerships.", "Build utility through staking and governance."],
+  },
+  {
+    step: 5,
+    percent: 90,
+    heading: "Meme Domination",
+    desc: "",
+    lists: ["Expand into the Metaverse and NFT marketplaces.", "Launch community-driven initiatives and decentralized governance."],
+  }
 ]
 
 const RoadMapAreaThree = () => {
