@@ -634,6 +634,8 @@
     -webkit-text-fill-color: white !important;
 }
 
+
+
 .titleF::after {
     content: "";
     position: absolute;
@@ -645,4 +647,25 @@
     width: 82px;
     z-index: 2; 
     pointer-events: none; 
+}
+
+
+// @media #{$xl} {
+    
+// }
+// @media #{$lg} {
+   
+// }
+// @media #{$md} {
+   
+// }
+@media #{$xs} {
+    .titleF {
+        font-size: 114px;
+    }
+}
+@media #{$sm} {
+    .titleF {
+        font-size: 114px;
+    }
 }
