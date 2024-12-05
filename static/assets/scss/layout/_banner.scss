@@ -600,12 +600,19 @@
     }
 }
 
+.mobile-hfc {
+    img {
+        display: none;
+    }
+}
+
 @media #{$xs} {
     .welcome-menu {
         justify-content:center !important;
     }
     .mobile-hfc {
         img {
+            display: block;
             width: 60%;
             height: auto;
         }
@@ -617,6 +624,7 @@
     }
     .mobile-hfc {
         img {
+            display: block;
             width: 60%;
             height: auto;
         }
