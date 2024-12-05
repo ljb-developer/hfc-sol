@@ -47,7 +47,7 @@ const WelcomeSection = ({CMSData}) => {
                     style={{ margin: "10px 0px" }}
                   >
                     <span style={{fontSize: "24px"}}>Buy</span>
-                    <i className="unicon-arrow-up-right"></i>
+                    {/* <i className="unicon-arrow-up-right"></i> */}
                   </a>
 
                   <li>
