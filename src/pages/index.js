@@ -111,7 +111,17 @@ const HomePage = () => {
                   id
                   url
                 }
-            }              
+            }   
+                
+              footer {
+                title
+                url
+                info
+                image {
+                  id
+                  url
+                }
+            }  
         
           }
       `;
@@ -132,7 +142,7 @@ const HomePage = () => {
 
   return (
 
-    <Layout>
+    <Layout CMSData={data}>
 
       <GradientPosition />
 

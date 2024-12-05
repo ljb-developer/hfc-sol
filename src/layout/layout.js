@@ -12,7 +12,7 @@ import videos_data from "../data/videos-data";
 import videos_data2 from "../data/videos-data2";
 
 
-const Layout = ({ children, blog_page = false }) => {
+const Layout = ({ CMSData, children, blog_page = false }) => {
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
 
@@ -135,7 +135,7 @@ const preloadedImages = [
           <main id={blog_page ? "" : "home"} className="fix">
             {children}
           </main>
-          <Footer />
+          <Footer CMSData={CMSData}/>
           <ToggleLightDark />
         </>
       )}

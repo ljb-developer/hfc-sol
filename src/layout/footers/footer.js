@@ -8,7 +8,7 @@ const handleScrollToTop = () => {
   scroll.scrollToTop()
 }
 
-const Footer = () => {
+const Footer = ({CMSData}) => {
   return (
     <footer className="footer-area section-py-80">
       <div className="container">
@@ -19,7 +19,8 @@ const Footer = () => {
             <div className="col-xl-5 col-lg-7 col-md-9 col-sm-11">
               <div className="footer__info text-center">
                 <p>
-                  A community-run memecoin project fighting for animal cruelty justice & your tax dollars
+                {CMSData.footer.description}
+                  {/* A community-run memecoin project fighting for animal cruelty justice & your tax dollars */}
                 </p>
                 <ul className="list-wrap footer__social">
                   <li>
