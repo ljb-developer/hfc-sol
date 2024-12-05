@@ -3129,11 +3129,11 @@ input[type=color] {
 }
 .roadmap__card {
   position: relative;
-  -webkit-border-radius: 32px;
-  -moz-border-radius: 32px;
-  -o-border-radius: 32px;
-  -ms-border-radius: 32px;
-  border-radius: 32px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -o-border-radius: 12px;
+  -ms-border-radius: 12px;
+  border-radius: 12px;
   padding: 32px;
   -webkit-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
   -moz-box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
@@ -3265,7 +3265,7 @@ input[type=color] {
   line-height: 1;
 }
 .roadmap__heading {
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1;
   margin: 0 0 26px;
 }
@@ -3276,7 +3276,7 @@ input[type=color] {
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .roadmap__heading {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 .roadmap__lists {
@@ -3286,7 +3286,7 @@ input[type=color] {
   content: "";
   display: block;
   width: 80px;
-  height: 0px;
+  height: 1px;
   background: rgba(131, 131, 131, 0.25);
   margin: 35px 0;
 }
