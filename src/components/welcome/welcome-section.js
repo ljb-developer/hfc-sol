@@ -41,7 +41,7 @@ const WelcomeSection = ({CMSData}) => {
                   <ul className="list-wrap footer__social welcome-menu">
 
                   <a
-                    href="https://app.uniswap.org/swap?chain=base&use=v2&outputCurrency=0x160381343365de6D5e7d32172987B3e6Bd1ccE71"
+                    href="https://raydium.io/swap/?inputMint=sol&outputMint=F9nJsVxZGn3Az7HAXUrLQs2WaWHiKRbNRYfSpRR2UPRC"
                     target="_blank"
                     className="banner__btn btn scroll-to-target"
                     style={{ margin: "10px 0px" }}
