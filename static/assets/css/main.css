@@ -3307,7 +3307,7 @@ input[type=color] {
 }
 .roadmap__lists li i {
   display: block;
-  line-height: 1;
+  line-height: 1.4;
   font-size: 24px;
   margin-right: 8px;
 }
