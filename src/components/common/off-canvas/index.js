@@ -27,15 +27,15 @@ const OffCanvas = ({
           <div className="nav-logo">
             <a href="#" className="light-logo">
               <img
-                src="/assets/img/logo/maricoin.png"
-                alt="Mari.Meme"
+                src="/assets/img/logo/logo_big.jpg"
+                alt="hamsterfight.club"
               />
             </a>
 
             <a href="#" className="dark-logo">
               <img
-                src="/assets/img/logo/maricoin.png"
-                alt="Mari.Meme"
+                src="/assets/img/logo/logo_big.jpg"
+                alt="hamsterfight.club"
                 width="300"
               />
             </a>
