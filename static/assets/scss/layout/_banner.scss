@@ -604,12 +604,26 @@
     .welcome-menu {
         justify-content:center !important;
     }
+    .mobile-hfc {
+        img {
+            width: 60%;
+            height: auto;
+        }
+    }
 }
 @media #{$sm} {
     .welcome-menu {
         justify-content:center !important;
     }
+    .mobile-hfc {
+        img {
+            width: 60%;
+            height: auto;
+        }
+    }
 }
+
+
 
 
 #dice-container {

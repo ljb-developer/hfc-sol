@@ -72,6 +72,8 @@ const WelcomeSection = ({CMSData}) => {
                  
                 </ul>
 
+                <div className="mobile-hfc">
+                <img src="/assets/img/logo/hfc_logo.jpeg"/>
                 </div>
 
       
