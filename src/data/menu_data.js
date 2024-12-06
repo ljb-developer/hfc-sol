@@ -26,6 +26,11 @@ export const menu_data = [
     title: "About",
     link: "about",
   },
+  // { 
+  //   id: 6,
+  //   title: "Tokenomics",
+  //   link: "tokenomics",
+  // },
   { 
     id: 6,
     title: "Roadmap",

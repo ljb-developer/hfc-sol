@@ -31,7 +31,7 @@ const TokenomicsArea = () => {
               </h2>
             </div>
 
-            <SingleFactItem count="Liquidity Pool" meta="80%" />
+            <SingleFactItem count="Liquidity Pool" meta="27.1%" />
 
             <SingleFactItem count="Marketing" meta="10% Marketing" />
 
@@ -40,9 +40,9 @@ const TokenomicsArea = () => {
               meta="1% each for 10 seed round liquidity providers."
             />
 
-            <SingleFactItem count="Total Supply" meta="420 Billion $MARI" />
+            <SingleFactItem count="Total Supply" meta="1 Billion $HFC" />
 
-            <SingleFactItem count="Taxes" meta="No taxes, no bullshit." />
+            <SingleFactItem count="Taxes" meta="No taxes" />
 
             <SingleFactItem
               count="Burned LP"
