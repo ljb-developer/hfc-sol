@@ -22,7 +22,7 @@ const faq_items = [
     desc: "To combine humor with a robust crypto project, empowering the community and delivering value through engagement and innovation.",
     parent: "accordionFaq",
     img: "",
-    video: baseStorageURL + ""
+    video: ""
   },
   {
     id: "Three",
