@@ -3247,7 +3247,7 @@ input[type=color] {
 }
 .roadmap__percent > span {
   display: block;
-  font-size: 150%;
+  font-size: 120%;
 }
 .roadmap__step {
   margin: 0 0 22px;
@@ -3261,7 +3261,7 @@ input[type=color] {
 .roadmap__step span {
   text-transform: uppercase;
   font-weight: var(--tg-fw-bold);
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1;
 }
 .roadmap__heading {
