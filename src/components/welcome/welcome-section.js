@@ -57,7 +57,7 @@ const WelcomeSection = ({CMSData}) => {
                   </li>
 
                   <li>
-                    <a href="https://x.com/HFC_Solana">
+                    <a href="https://x.com/HFC_Sol">
                     <img src="/assets/img/icons/x.svg" style={{width: "50px"}}/>
                     </a>
                   </li>
