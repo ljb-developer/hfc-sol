@@ -25,7 +25,7 @@ const SingleFaq = ({ item }) => {
       >
         <div className="accordion-body">
           <p>{desc}</p>
-          {desc && <p></p>}
+         
         </div><div className="accordion-body">
           
           
