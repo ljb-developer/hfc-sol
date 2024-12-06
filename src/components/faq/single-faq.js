@@ -1,29 +1,26 @@
 import React from "react"
 import VideoPlayerBasic from "../videos/videoplayer-basic";
 
-const SingleFaq = ({ key, item }) => {
-  const { title, desc, image, video } = item || {}
-
-  let show = false;
-
+const SingleFaq = ({ item }) => {
+  const { title, desc, id, show, image, video } = item || {}
   return (
     <div className="accordion-item">
-      <h2 className="accordion-header" id={`heading${key}`}>
+      <h2 className="accordion-header" id={`heading${id}`}>
         <button
           className={`accordion-button ${show ? "" : "collapsed"}`}
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target={`#collapse${key}`}
+          data-bs-target={`#collapse${id}`}
           aria-expanded={show ? "true" : "false"}
-          aria-controls={`collapse${key}`}
+          aria-controls={`collapse${id}`}
         >
           {title}
         </button>
       </h2>
       <div
-        id={`collapse${key}`}
+        id={`collapse${id}`}
         className={`accordion-collapse collapse ${show ? "show" : ""}`}
-        aria-labelledby={`heading${key}`}
+        aria-labelledby={`heading${id}`}
         data-bs-parent={`#accordionFaq`}
       >
         <div className="accordion-body">

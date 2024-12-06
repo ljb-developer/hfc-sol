@@ -134,6 +134,7 @@ const HomePage = () => {
             }   
 
             allFaqs {
+                id
                 title
                 desc
                 video
