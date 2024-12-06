@@ -54,6 +54,16 @@ const HomePage = () => {
                 slogan
               }
 
+              allNewsSections {
+                date
+                header
+                content
+                image {
+                  id
+                  url
+                }
+              } 
+
               aboutSection {
                 toptext
                 header
@@ -158,7 +168,7 @@ const HomePage = () => {
 
       <VideosArea2 CMSData={data}/>
 
-      <NewsArea/>
+      <NewsArea CMSData={data}/>
    
       <AboutArea CMSData={data}/>
 
