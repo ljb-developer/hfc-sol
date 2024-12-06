@@ -7,6 +7,16 @@ const NewsArea = ({CMSData}) => {
     <section id="news" className="about-area section-pt-70 section-pb-80">
       <div className="container">
 
+      <div className="col-xl-8 col-lg-10">
+            <div className="section__title text-center title-mb-65">
+              <h2 className="title">
+                News / Blog
+                {/* <span className="tg-text-gradient">& Memes</span> */}
+              </h2>
+            </div>
+          </div>
+        </div>
+
         <div className="about__row-reverse">
 
         {CMSData.allNewsSections.map((item, index) => (
