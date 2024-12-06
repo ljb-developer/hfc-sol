@@ -8,6 +8,9 @@ const NewsArea = ({CMSData}) => {
       <div className="container">
 
         <div className="about__row-reverse">
+
+        {CMSData.allNewsSections.map((item, index) => (
+
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div
@@ -15,7 +18,7 @@ const NewsArea = ({CMSData}) => {
                 data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
               >
               
-                <ImageComponent img={CMSData.allNewsSections.image.url} alt="About" cssClass="rounded-img" />
+                <ImageComponent img={item.image.url} alt="About" cssClass="rounded-img" />
 
               </div>
             </div>
@@ -26,19 +29,20 @@ const NewsArea = ({CMSData}) => {
               >
                 <div className="section__title text-start">
                   <span className="sub-title tg-text-gradient">   
-                  {CMSData.allNewsSections.date}
+                  {item.date}
                   </span>
-                  <h2 className="title">{CMSData.allNewsSections.header}</h2>
+                  <h2 className="title">{item.header}</h2>
                 </div>
                 <p>
 
-                {CMSData.allNewsSections.content}
+                {item.content}
 
                 </p>
               </div>
             </div>
           </div>
 
+        ))}
       
         </div>
       </div>
