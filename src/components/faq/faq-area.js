@@ -42,7 +42,7 @@ const faq_items = [
   },
 ]
 
-const FaqArea = ({ spacing, style_2 = false }) => {
+const FaqArea = ({ CMSData, spacing, style_2 = false }) => {
   return (
     <section
       id="faq"
@@ -68,8 +68,8 @@ const FaqArea = ({ spacing, style_2 = false }) => {
               data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
             >
               <div className="accordion" id="accordionFaq">
-                {faq_items.map(item => (
-                  <SingleFaq key={item.id} item={item} />
+                {CMSData.allFaqs.map(item, index => (
+                  <SingleFaq key={index} item={item} />
                 ))}
               </div>
             </div>

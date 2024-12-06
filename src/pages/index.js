@@ -132,6 +132,17 @@ const HomePage = () => {
                   url
                 }
             }   
+
+            allFaqs {
+                title
+                desc
+                video
+                image {
+                  id
+                  url
+                }
+
+            }  
                 
               footer {
                 description
@@ -174,7 +185,7 @@ const HomePage = () => {
 
       <Roadmap/>
 
-      <FaqArea/>
+      <FaqArea CMSData={data}/>
      
       {/* <FaqArea style_2={true} spacing="section-pt-70 section-pb-80" /> */}
      

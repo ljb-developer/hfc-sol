@@ -1,31 +1,34 @@
 import React from "react"
 import VideoPlayerBasic from "../videos/videoplayer-basic";
 
-const SingleFaq = ({ item }) => {
-  const { title, desc, id, show, parent, desc_2, img, video } = item || {}
+const SingleFaq = ({ key, item }) => {
+  const { title, desc, image, video } = item || {}
+
+  let show = false;
+
   return (
     <div className="accordion-item">
-      <h2 className="accordion-header" id={`heading${id}`}>
+      <h2 className="accordion-header" id={`heading${key}`}>
         <button
           className={`accordion-button ${show ? "" : "collapsed"}`}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target={`#collapse${id}`}
           aria-expanded={show ? "true" : "false"}
-          aria-controls={`collapse${id}`}
+          aria-controls={`collapse${key}`}
         >
           {title}
         </button>
       </h2>
       <div
-        id={`collapse${id}`}
+        id={`collapse${key}`}
         className={`accordion-collapse collapse ${show ? "show" : ""}`}
-        aria-labelledby={`heading${id}`}
-        data-bs-parent={`#${parent}`}
+        aria-labelledby={`heading${key}`}
+        data-bs-parent={`#accordionFaq`}
       >
         <div className="accordion-body">
           <p>{desc}</p>
-          {desc && <p>{desc_2}</p>}
+          {desc && <p></p>}
         </div><div className="accordion-body">
           
           
@@ -36,8 +39,8 @@ const SingleFaq = ({ item }) => {
                                          />
                           ) : ""}
 
-{img !== "" ? (
-                                         <img src={img} style={{width: "600px"}}/>
+{image !== "" ? (
+                                         <img src={image} style={{width: "600px"}}/>
                           ) : ""}
 
 
