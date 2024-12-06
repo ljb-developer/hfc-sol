@@ -26,7 +26,7 @@ const NewsArea = ({CMSData}) => {
               >
                 <div className="section__title text-start">
                   <span className="sub-title tg-text-gradient">   
-                  {CMSData.allNewsSections.toptext}
+                  {CMSData.allNewsSections.date}
                   </span>
                   <h2 className="title">{CMSData.allNewsSections.header}</h2>
                 </div>
