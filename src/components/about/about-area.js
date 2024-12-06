@@ -108,7 +108,7 @@ const AboutArea = ({CMSData}) => {
               >
 
 
-                <ImageComponent img={CMSData.aboutSection3.image.url} alt="Socials" cssClass="rounded-img" />
+                <ImageComponent img={CMSData.socialsSection.image.url} alt="Socials" cssClass="rounded-img" />
 
               </div>
             </div>
@@ -124,7 +124,7 @@ const AboutArea = ({CMSData}) => {
                   <h2 className="title">{CMSData.aboutSection3.header}</h2>
                 </div>
 
-                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2).replace(/"/g, "").trim().replace(/\n/g, "")} />
+                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2).replace(/"/g, "").trim()} />
 
               </div>
             </div>
