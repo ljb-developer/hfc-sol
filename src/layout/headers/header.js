@@ -187,7 +187,7 @@ const Header = ({ blog_page }) => {
                     </li>
                     <li>
                     <a
-                          href="https://x.com/HFC_Solana"
+                          href="https://x.com/HFC_Sol"
                           target="_blank"
                           className="d-none d-sm-block"
                         >

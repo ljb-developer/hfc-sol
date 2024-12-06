@@ -50,7 +50,7 @@ const OffCanvas = ({
           <div className="social-links">
             <ul className="list-wrap">
               <li>
-                <a href="https://x.com/HFC_Solana" target="_blank">
+                <a href="https://x.com/HFC_Sol" target="_blank">
                   <i className="fab fa-twitter"></i>
                 </a>
               </li>

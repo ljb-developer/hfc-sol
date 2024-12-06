@@ -24,7 +24,7 @@ const Footer = ({CMSData}) => {
                 </p>
                 <ul className="list-wrap footer__social">
                   <li>
-                    <a href="https://x.com/HFC_Solana">
+                    <a href="https://x.com/HFC_Sol">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
