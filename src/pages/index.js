@@ -163,6 +163,8 @@ const HomePage = () => {
       <AboutArea CMSData={data}/>
 
       <Roadmap/>
+
+      <FaqArea/>
      
       {/* <FaqArea style_2={true} spacing="section-pt-70 section-pb-80" /> */}
      

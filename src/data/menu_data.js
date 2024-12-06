@@ -31,6 +31,11 @@ export const menu_data = [
     title: "Roadmap",
     link: "roadmap",
   },
+  { 
+    id: 7,
+    title: "FAQ",
+    link: "faq",
+  },
 
   // {
   //   id: 6,

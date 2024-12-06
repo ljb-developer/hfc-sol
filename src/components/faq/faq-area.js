@@ -8,9 +8,9 @@ const baseStorageURL = "https://hfc-sol.s3.eu-north-1.amazonaws.com/"
 const faq_items = [
   {
     id: "One",
-    title: "Where can I buy $HFC ?",
+    title: "What is Hamster Fight Club (HFC)?",
     show: true,
-    desc: "Go to xxxx...... do xxxx. ",
+    desc: "HFC is a meme-based cryptocurrency created by the community after a viral government-related meme sparked its concept.",
     desc_2: "",
     parent: "accordionFaq",
     img: "",
@@ -18,24 +18,24 @@ const faq_items = [
   },
   {
     id: "Two",
-    title: "How do I buy $HFC ?",
-    desc: "",
+    title: "Why was HFC created?",
+    desc: "To combine humor with a robust crypto project, empowering the community and delivering value through engagement and innovation.",
     parent: "accordionFaq",
     img: "",
     video: baseStorageURL + ""
   },
   {
     id: "Three",
-    title: "Where can I meet other community members?",
-    desc: "See our About section. Link in the upper right menu.",
+    title: "How can I buy $HFC?",
+    desc: "$HFC is available on decentralized exchanges like Raydium, more exchange listings to come. Stay tuned for listings on major platforms!",
     parent: "accordionFaq",
     img: "",
     video: ""
   },
   {
     id: "Four",
-    title: "Where can I find Memes, Art and Videos?",
-    desc: "Besides here on our website, via Art and Videos n the top menu, you can also find it in our regular TG Channel t.me/hfcctosol.",
+    title: "What’s the purpose of HFC?",
+    desc: "To bring fun to crypto while offering real value through NFTs, and community governance.",
     parent: "accordionFaq",
     img: "",
     video: ""
