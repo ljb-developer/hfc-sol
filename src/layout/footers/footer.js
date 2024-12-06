@@ -22,23 +22,27 @@ const Footer = ({CMSData}) => {
                 {CMSData.footer.description}
                   {/* A community-run memecoin project fighting for animal cruelty justice & your tax dollars */}
                 </p>
-                <ul className="list-wrap footer__social">
-                  <li>
-                    <a href="https://x.com/HFC_Sol">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.tiktok.com/@hfc_solana">
-                      <i className="fab fa-tiktok"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://t.me/hfcctosol">
-                      <i className="fab fa-telegram-plane"></i>
-                    </a>
-                  </li>
-                </ul>
+                <ul className="list-wrap footer__social welcome-menu">
+
+                    <li>
+                      <a href="https://t.me/hfcctosol">
+                        <img src="/assets/img/icons/tg.svg" style={{width: "50px"}}/>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://x.com/HFC_Sol">
+                      <img src="/assets/img/icons/x.svg" style={{width: "50px"}}/>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="https://tiktok.com/@hfc_solana">
+                      <img src="/assets/img/icons/tiktok.webp" style={{width: "50px"}}/>
+                      </a>
+                    </li>  
+
+                  </ul>
               </div>
             </div>
           </div>
