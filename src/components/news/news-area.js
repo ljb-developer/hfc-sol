@@ -10,12 +10,13 @@ const NewsArea = ({CMSData}) => {
       <div className="col-xl-8 col-lg-10">
             <div className="section__title text-center title-mb-65">
               <h2 className="title">
+
                 News / Blog
-                {/* <span className="tg-text-gradient">& Memes</span> */}
+          
               </h2>
             </div>
           </div>
-        </div>
+       
 
         <div className="about__row-reverse">
 
