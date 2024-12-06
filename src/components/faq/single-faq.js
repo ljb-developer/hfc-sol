@@ -13,7 +13,7 @@ const SingleFaq = ({ key, item }) => {
           className={`accordion-button ${show ? "" : "collapsed"}`}
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target={`#collapse${id}`}
+          data-bs-target={`#collapse${key}`}
           aria-expanded={show ? "true" : "false"}
           aria-controls={`collapse${key}`}
         >
