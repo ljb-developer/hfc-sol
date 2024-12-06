@@ -2,7 +2,7 @@ import React from "react"
 import RenderMarkdown from "../RenderMarkdown";
 import ImageComponent from '../ImageComponent';
 
-function formatDateTime(isoDateString) {
+function formatDateTimeSimple(isoDateString) {
   // Create a new Date object from the ISO string
   const date = new Date(isoDateString);
 
@@ -16,6 +16,28 @@ function formatDateTime(isoDateString) {
   // Format as "YYYY-MM-DD HH:MM"
   return `${year}-${month}-${day} ${hours}:${minutes}`;
 }
+
+function formatDateTime(isoDateString) {
+  // Create a new Date object from the ISO string
+  const date = new Date(isoDateString);
+
+  // Month names array
+  const monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+  ];
+
+  // Extract the components
+  const month = monthNames[date.getMonth()]; // Get month name
+  const day = date.getDate(); // Day of the month
+  const hours = String(date.getHours()).padStart(2, '0'); // Two-digit hour
+  const minutes = String(date.getMinutes()).padStart(2, '0'); // Two-digit minute
+
+  // Format as "Month Day - Hour:Minute"
+  return `${month} ${day} - ${hours}:${minutes}`;
+}
+
+
 
 const NewsArea = ({CMSData}) => {
   return (
