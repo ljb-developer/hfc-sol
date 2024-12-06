@@ -7,15 +7,18 @@ const NewsArea = ({CMSData}) => {
     <section id="news" className="about-area section-pt-70 section-pb-80">
       <div className="container">
 
-      <div className="col-xl-8 col-lg-10">
-            <div className="section__title text-center title-mb-65">
+      <div
+          className="row justify-content-center"
+          data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 100;"
+        >
+          <div className="col-xl-8 col-lg-10">
+            <div className="section__title text-center title-mb-80">
               <h2 className="title">
-
-                News / Blog
-          
+                News / <span className="tg-text-gradient">Blog</span>
               </h2>
             </div>
           </div>
+        </div>
        
 
         <div className="about__row-reverse">
