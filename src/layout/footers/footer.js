@@ -22,9 +22,8 @@ const Footer = ({CMSData}) => {
                 {CMSData.footer.description}
                   {/* A community-run memecoin project fighting for animal cruelty justice & your tax dollars */}
                 </p>
-                <ul className="list-wrap footer__social welcome-menu">
-
-                    <li>
+                <ul className="list-wrap footer__social">
+                <li>
                       <a href="https://t.me/hfcctosol">
                         <img src="/assets/img/icons/tg.svg" style={{width: "50px"}}/>
                       </a>
@@ -41,8 +40,7 @@ const Footer = ({CMSData}) => {
                       <img src="/assets/img/icons/tiktok.webp" style={{width: "50px"}}/>
                       </a>
                     </li>  
-
-                  </ul>
+                </ul>
               </div>
             </div>
           </div>
