@@ -98,7 +98,7 @@ const AboutArea = ({CMSData}) => {
                   <h2 className="title">{CMSData.aboutSection3.header}</h2>
                 </div>
 
-                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2)} />
+                <RenderMarkdown content={CMSData.aboutSection3.content} />
 
               </div>
             </div>
