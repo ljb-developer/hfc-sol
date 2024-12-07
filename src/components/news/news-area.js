@@ -82,7 +82,7 @@ const NewsArea = ({CMSData}) => {
                   <span className="sub-title tg-text-gradient">   
                   {formatDateTime(item.date)}
                   </span>
-                  <h2 className="title">{item.header}</h2>
+                  <h2 className="title" style={{fontSize: "34px"}}>{item.header}</h2>
                 </div>
                 <p>
 
