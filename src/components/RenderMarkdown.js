@@ -9,13 +9,13 @@ function removeNewlines(input) {
 
 const RenderMarkdown = ({ content }) => {
 
-  const result = removeNewlines(content);
+  // const result = removeNewlines(content);
   
   return (
     <ReactMarkdown
-      children={result}
+      children={content}
       rehypePlugins={[rehypeRaw]} // Allows raw HTML to be rendered
-      remarkPlugins={[remarkBreaks]} // Converts \n to <br />
+      // remarkPlugins={[remarkBreaks]} // Converts \n to <br />
     />
   );
 };
