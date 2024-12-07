@@ -179,7 +179,7 @@ const Header = ({ blog_page }) => {
 
                     <li>
                         <a
-                          href="https://t.me/hfcctosol"
+                          href="https://t.me/+io44QuNs8mowNjFk"
                           target="_blank"
                         >
                           <i className="fab fa-telegram-plane"></i>

@@ -74,12 +74,12 @@ const RoadMapAreaThree = () => {
                       Phase {item.step < 10 ? `0${item.step}` : item.step}
                     </span>
                   </div>
-                  <h3 className="roadmap__heading">{item.heading}</h3>
+                  <h3 className="roadmap__heading" style={{minHeight: "70px"}}>{item.heading}</h3>
                   {/* <p>{item.desc}</p> */}
                   <ul className="roadmap__lists list-wrap">
                     {item.lists.map((l, i) => (
-                      <li key={i}>
-                        <i className="unicon-checkmark-outline tg-text-gradient d-inline-flex"></i>
+                      <li key={i} style={{minHeight: "44px", alignItems: "flex-start"}}>
+                        <i className="unicon-checkmark-outline tg-text-gradient d-inline-flex" style={{minHeight: "44px", alignItems: "flex-start"}}></i>
                         {l}
                       </li>
                     ))}

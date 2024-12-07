@@ -24,7 +24,7 @@ const Footer = ({CMSData}) => {
                 </p>
                 <ul className="list-wrap footer__social">
                 <li>
-                      <a href="https://t.me/hfcctosol">
+                      <a href="https://t.me/+io44QuNs8mowNjFk">
                         <img src="/assets/img/icons/tg.svg" style={{width: "50px"}}/>
                       </a>
                     </li>

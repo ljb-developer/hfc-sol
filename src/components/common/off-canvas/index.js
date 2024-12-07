@@ -55,7 +55,7 @@ const OffCanvas = ({
                 </a>
               </li>
               <li>
-                <a href="https://t.me/hfcctosol" target="_blank">
+                <a href="https://t.me/+io44QuNs8mowNjFk" target="_blank">
                   <i className="fab fa-telegram-plane"></i>
                 </a>
               </li>
