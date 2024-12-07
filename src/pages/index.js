@@ -193,14 +193,14 @@ const HomePage = () => {
       <GradientPosition />
 
       <WelcomeSection CMSData={data}/>
+
+      <NewsArea CMSData={data}/>
   
       <MemesArea CMSData={data}/>
     
       <VideosArea CMSData={data}/>
 
       <VideosArea2 CMSData={data}/>
-
-      <NewsArea CMSData={data}/>
    
       <AboutArea CMSData={data}/>
 

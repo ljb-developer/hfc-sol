@@ -5,21 +5,20 @@ export const menu_data = [
     title: "Home",
     link: "home",
   },
-
   {
     id: 2,
+    title: "News",
+    link: "news",
+  },
+  {
+    id: 3,
     title: "Art",
     link: "memes",
   },
   {
-    id: 3,
+    id: 4,
     title: "Videos",
     link: "videos",
-  },
-  {
-    id: 4,
-    title: "News",
-    link: "news",
   },
   { 
     id: 5,
@@ -27,17 +26,17 @@ export const menu_data = [
     link: "about",
   },
   // { 
-  //   id: 6,
+  //   id: 5b,
   //   title: "Tokenomics",
   //   link: "tokenomics",
   // },
   { 
-    id: 6,
+    id: 7,
     title: "Roadmap",
     link: "roadmap",
   },
   { 
-    id: 7,
+    id: 8,
     title: "FAQ",
     link: "faq",
   },
