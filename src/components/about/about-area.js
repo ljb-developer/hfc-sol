@@ -2,6 +2,10 @@ import React from "react"
 import RenderMarkdown from "../RenderMarkdown";
 import ImageComponent from '../ImageComponent';
 
+function removeNewlinesEtc(input) {
+  return input.replace(/[\n\r\s]+/g, ""); // Matches all newlines, carriage returns, and whitespace.
+}
+
 const AboutArea = ({CMSData}) => {
   return (
     <section id="about" className="about-area section-pt-70 section-pb-80">
@@ -94,7 +98,7 @@ const AboutArea = ({CMSData}) => {
                   <h2 className="title">{CMSData.aboutSection3.header}</h2>
                 </div>
 
-                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2)} />
+                <RenderMarkdown content={JSON.stringify(removeNewlinesEtc(CMSData.aboutSection3.content), null, 2)} />
 
               </div>
             </div>
