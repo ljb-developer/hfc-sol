@@ -62,7 +62,7 @@ const AboutArea = ({CMSData}) => {
                   <span className="sub-title tg-text-gradient">   
                   {CMSData.aboutSection2.toptext}
                   </span>
-                  <h2 className="title" style={{fontSize: "38px"}}>{CMSData.aboutSection2.header}</h2>
+                  <h2 className="title" style={{fontSize: "44px"}}>{CMSData.aboutSection2.header}</h2>
                 </div>
                 <p>
 
