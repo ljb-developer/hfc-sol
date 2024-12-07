@@ -86,7 +86,7 @@ const NewsArea = ({CMSData}) => {
                 </div>
                 <p>
 
-                <RenderMarkdown content={JSON.stringify(item.content, null, 2).replace(/"/g, "").trim().replace(/\n/g, "  \n")} />
+                <RenderMarkdown content={item.content} />
                 
                 </p>
               </div>
