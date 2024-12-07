@@ -82,7 +82,7 @@ const AboutArea = ({CMSData}) => {
               >
 
 
-                <ImageComponent img={CMSData.aboutSection3.image.url} alt="Socials" cssClass="rounded-img" />
+                <ImageComponent img={CMSData.aboutSection3.image.url} alt="About" cssClass="rounded-img" />
 
               </div>
             </div>
@@ -135,7 +135,35 @@ const AboutArea = ({CMSData}) => {
           </div>
 
 
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className="about__img"
+                data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
+              >
 
+
+                <ImageComponent img={CMSData.teamSection.image.url} alt="Team" cssClass="rounded-img" />
+
+              </div>
+            </div>
+            <div className="col-lg-6" id="mari-on-socials">
+              <div
+                className="about__content"
+                data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
+              >
+                <div className="section__title text-start">
+                  <span className="sub-title tg-text-gradient">
+                  {CMSData.teamSection.toptext}
+                  </span>
+                  <h2 className="title">{CMSData.teamSection.header}</h2>
+                </div>
+
+                <RenderMarkdown content={JSON.stringify(CMSData.teamSection.content, null, 2).replace(/"/g, "").trim().replace(/\n/g, "  \n")} />
+
+              </div>
+            </div>
+          </div>
 
       
         </div>

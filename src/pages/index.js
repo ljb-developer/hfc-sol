@@ -104,6 +104,16 @@ const HomePage = () => {
               }
             }
 
+             teamSection {
+              toptext
+              header
+              content
+              image {
+                id
+                url
+              }
+            }           
+
             allPartnerSections {
               toptext
               header
