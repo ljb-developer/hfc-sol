@@ -82,7 +82,7 @@ const AboutArea = ({CMSData}) => {
               >
 
 
-                <ImageComponent img={CMSData.socialsSection.image.url} alt="Socials" cssClass="rounded-img" />
+                <ImageComponent img={CMSData.aboutSection3.image.url} alt="Socials" cssClass="rounded-img" />
 
               </div>
             </div>
