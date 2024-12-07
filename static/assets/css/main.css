@@ -3681,6 +3681,7 @@ input[type=color] {
 .faq__wrapper .accordion-body p {
   font-size: 20px;
   line-height: 1.5;
+
 }
 .faq__wrapper .accordion-body p:last-child {
   margin-bottom: 0;
@@ -3688,6 +3689,9 @@ input[type=color] {
 @media (max-width: 767.98px) {
   .faq__wrapper .accordion-body p {
     font-size: 16px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    white-space: normal;
   }
 }
 .faq-style-two .faq__wrapper {
