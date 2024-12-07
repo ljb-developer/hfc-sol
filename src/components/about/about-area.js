@@ -69,6 +69,37 @@ const AboutArea = ({CMSData}) => {
             </div>
           </div>
 
+
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div
+                className="about__img"
+                data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
+              >
+
+
+                <ImageComponent img={CMSData.socialsSection.image.url} alt="Socials" cssClass="rounded-img" />
+
+              </div>
+            </div>
+            <div className="col-lg-6" id="mari-on-socials">
+              <div
+                className="about__content"
+                data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
+              >
+                <div className="section__title text-start">
+                  <span className="sub-title tg-text-gradient">
+                  {CMSData.aboutSection3.toptext}
+                  </span>
+                  <h2 className="title">{CMSData.aboutSection3.header}</h2>
+                </div>
+
+                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2)} />
+
+              </div>
+            </div>
+          </div>          
+
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div
@@ -100,35 +131,7 @@ const AboutArea = ({CMSData}) => {
           </div>
 
 
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div
-                className="about__img"
-                data-anime="opacity:[0, 1]; translateX:[-24, 0]; onview: -250; delay: 200;"
-              >
 
-
-                <ImageComponent img={CMSData.socialsSection.image.url} alt="Socials" cssClass="rounded-img" />
-
-              </div>
-            </div>
-            <div className="col-lg-6" id="mari-on-socials">
-              <div
-                className="about__content"
-                data-anime="opacity:[0, 1]; translateX:[24, 0]; onview: -250; delay: 300;"
-              >
-                <div className="section__title text-start">
-                  <span className="sub-title tg-text-gradient">
-                  {CMSData.aboutSection3.toptext}
-                  </span>
-                  <h2 className="title">{CMSData.aboutSection3.header}</h2>
-                </div>
-
-                <RenderMarkdown content={JSON.stringify(CMSData.aboutSection3.content, null, 2).replace(/"/g, "").trim()} />
-
-              </div>
-            </div>
-          </div>
 
       
         </div>
