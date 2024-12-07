@@ -11,7 +11,7 @@ const RenderMarkdown = ({ content }) => {
     <ReactMarkdown
       children={content}
       rehypePlugins={[rehypeRaw]} // Allows raw HTML to be rendered
-      remarkPlugins={[remarkBreaks]} // Converts \n to <br />
+      // remarkPlugins={[remarkBreaks]} // Converts \n to <br />
     />
   );
 };
