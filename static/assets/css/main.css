@@ -3681,9 +3681,7 @@ input[type=color] {
 .faq__wrapper .accordion-body p {
   font-size: 20px;
   line-height: 1.5;
-  word-wrap: break-word; 
-  overflow-wrap: break-word; 
-  white-space: normal;
+  overflow-wrap: anywhere;
 
 }
 .faq__wrapper .accordion-body p:last-child {
