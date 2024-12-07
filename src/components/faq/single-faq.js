@@ -24,7 +24,7 @@ const SingleFaq = ({ item }) => {
         data-bs-parent={`#accordionFaq`}
       >
         <div className="accordion-body" style={{overflowWrap: "anywhere"}}>
-          <p style={{overflowWrap: "anywhere"}}>{desc}</p>
+          <p style={{overflowWrap: "anywhere", wordWrap: "break-word"}}>{desc}</p>
          
         </div><div className="accordion-body">
           
