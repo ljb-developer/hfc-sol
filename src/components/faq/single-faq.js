@@ -23,8 +23,8 @@ const SingleFaq = ({ item }) => {
         aria-labelledby={`heading${id}`}
         data-bs-parent={`#accordionFaq`}
       >
-        <div className="accordion-body">
-          <p>{desc}</p>
+        <div className="accordion-body" style={{overflowWrap: "anywhere"}}>
+          <p style={{overflowWrap: "anywhere"}}>{desc}</p>
          
         </div><div className="accordion-body">
           
