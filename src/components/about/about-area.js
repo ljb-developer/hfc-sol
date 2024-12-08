@@ -128,7 +128,7 @@ const AboutArea = ({CMSData}) => {
                   <h2 className="title">{CMSData.socialsSection.header}</h2>
                 </div>
 
-                <RenderMarkdown content={JSON.stringify(CMSData.socialsSection.content, null, 2).replace(/"/g, "").trim().replace(/\n/g, "  \n")} />
+                <RenderMarkdown content={CMSData.socialsSection.content}/>
 
               </div>
             </div>
