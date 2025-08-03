@@ -7,7 +7,7 @@ const Preloader = ({ progress }) => (
   <div className="uni-preloader">
   <div className="loading">
 
-    <div style={{ width: "100%", height: "100%", bottom: "120px" }}><img src="/assets/img/icons/hfc_hamster.jpg" style={{width: "100%", borderRadius: "12px"}}/></div>
+    <div style={{ width: "100%", height: "100%", bottom: "128px" }}><img src="/assets/img/icons/hfc_hamster.jpg" style={{width: "100%", borderRadius: "12px"}}/></div>
     
     
   </div>
