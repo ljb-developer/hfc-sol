@@ -29,8 +29,8 @@
     color: white !important;
     font-weight: bold;
     font-size: 70px;
-    -webkit-text-stroke: 0.5px #680E19 !important;
-    text-shadow: 2px 2px 20px #888888 !important;
+    /* -webkit-text-stroke: 0.0px #680E19 !important;
+    text-shadow: 2px 2px 20px #888888 !important; */
     
     z-index: 1000;
     position: fixed;
