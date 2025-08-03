@@ -11,7 +11,7 @@ const Preloader = ({ progress }) => (
     
     
   </div>
-  {/* <div className="loading-text">{Math.round(progress)}%</div> */}
+  <div className="loading-text">{Math.round(progress)}%</div>
 </div>
 
 );
